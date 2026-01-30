@@ -8,7 +8,7 @@ The implementation is written in **Python** and presented as a **Jupyter noteboo
 
 ## Problem Overview
 
-We consider the motion of a charged particle with unit mass and charge in a static magnetic field $B(x)$ and (optionally) an electrostatic potential $U(x)$. The dynamics are governed by
+We consider the motion of a charged particle with unit mass and charge in a static magnetic field $B(x)$ and an electrostatic potential $U(x)$. The dynamics are governed by
 
 $$
 \dot{x} = v, \qquad
