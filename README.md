@@ -8,18 +8,18 @@ The implementation is written in **Python** and presented as a **Jupyter noteboo
 
 ## Problem Overview
 
-We consider the motion of a charged particle with unit mass and charge in a static magnetic field \( B(x) \) and (optionally) an electrostatic potential \( U(x) \). The dynamics are governed by
+We consider the motion of a charged particle with unit mass and charge in a static magnetic field $ B(x) $ and (optionally) an electrostatic potential $ U(x) $. The dynamics are governed by
 
-\[
+$$
 \dot{x} = v, \qquad
 \dot{v} = v \times B(x) - \nabla U(x).
-\]
+$$
 
 The system conserves the energy
 
-\[
+$$
 E(x, v) = \frac{1}{2}\|v\|^2 + U(x).
-\]
+$$
 
 Accurately preserving this energy over long time intervals is essential for physically meaningful simulations.
 
@@ -44,7 +44,6 @@ The project implements and compares three numerical integrators:
 - Preserves symmetry and shows near-energy conservation over long times  
 - Requires high-accuracy starting values  
 
-All methods are implemented in a **modular way**, allowing them to be applied to different magnetic fields and potentials.
 
 ---
 
