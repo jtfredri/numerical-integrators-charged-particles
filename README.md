@@ -85,6 +85,7 @@ The notebook includes the following experiments:
 - Error versus runtime comparisons  
 - Efficiency analysis of each method  
 
+---
 
 ## References
 
